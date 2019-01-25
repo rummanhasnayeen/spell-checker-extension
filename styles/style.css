@@ -1,0 +1,56 @@
+
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+top: -60px;
+  left: -110px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+     top: 0px;
+    left: 0px;
+}
+.percent {
+  display: inline-block;
+  line-height: 110px;
+
+
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+   top: 0;
+  left: 0;
+}
+
+.span6 {
+  float: left;
+  width: 50%;
+}
+
+
+
+@media only screen and (max-width: 430px) {
+  .span6 {
+    float: none;
+    width: 100%;
+  }
+
+}
+
+
+
+/*radio buton homepage*/
+input[type=radio]:after {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 2px solid green;
+  content: "";
+}
+
+
